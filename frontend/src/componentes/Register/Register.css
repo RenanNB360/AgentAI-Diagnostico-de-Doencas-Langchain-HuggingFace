@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.container h1 {
+    color: white;
+    font-size: 2.10em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #444654;
+    max-width: 50%;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.container .create-user {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container .create-user button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+}
+
+.container .create-user button:hover {
+    background-color: #56576c;
+}
+
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 30%;
+    font-size: 1.10em;
+    color: white;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.form-group input {
+    width: 98%;
+    background-color: #282c34;
+    color: white;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 1.10em;
+    border: none;
+    border-radius: 5px;
+    border-color: #40414f;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+

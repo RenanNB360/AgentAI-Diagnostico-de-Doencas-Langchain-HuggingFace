@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.container .card {
+    background-color: #444654;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 50%;
+    width: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container .card .return-text p {
+    color: white;
+    margin: 5px 0;
+    gap: 5px;
+    text-align: left;
+    padding-left: 35%;
+}
+
+.container .card .action-user {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.container .card .action-user button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+}
+
+.container .card .action-user button:hover {
+    background-color: #56576c;
+}

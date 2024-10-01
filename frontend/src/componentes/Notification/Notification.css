@@ -1,0 +1,48 @@
+.notification-container {
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.notification-container .icon {
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    font-size: 39px;
+    color: #a2a3b4;
+    align-items: center;
+}
+
+.notification-container .icon .icon-inner {
+    display: flex;
+}
+
+.notification-container .notification-message {
+    font-size: 1.10em;
+    color: white;
+}
+
+.notification-container .back-chat {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 100; 
+}
+
+.notification-container .back-chat button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+}
+
+.notification-container .back-chat button:hover {
+    background-color: #56576c;
+}

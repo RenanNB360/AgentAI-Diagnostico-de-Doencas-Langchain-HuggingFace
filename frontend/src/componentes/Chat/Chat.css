@@ -1,0 +1,109 @@
+.chat-input-holder {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;left: 0;right: 0;
+    z-index: 100;
+}
+
+.chat-input-text {
+    width: 30%;
+    padding: 10px;
+    background-color: #40414f;
+    border-radius:  5px;
+    font-size: 1.10em;
+    border: none;
+    border-color: #40414f;
+    margin: 12px;
+    color: white;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+.chat-input-holder button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+}
+
+.chat-input-holder button:hover {
+    background-color: #56576c;
+}
+
+.chat-log {
+    text-align: left;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    margin-bottom: 60px;
+}
+
+.chat-message.nurse {
+    background-color: #444654;
+}
+
+.chat-message-center {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.avatar.user {
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.avatar.nurse {
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.icon {
+    font-size: 39px;
+    color: #a2a3b4;
+}
+
+.message {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.appointment-link {
+    position: fixed;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 101;
+}
+
+.appointment-link button {
+    background-color: #40414f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+}
+
+.appointment-link button:hover {
+    background-color: #56576c;
+}
+
